@@ -20,5 +20,10 @@ public class Unit4_2ForLoop {
 		
 		
 	}
+	
+	//If you know the statement has to repeat a set number of times for loop should be used
+	
+	//If you don't know how often the stament will repeat because of a complicated 
+	//boolean expression or equation then use while loop
 
 }
