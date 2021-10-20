@@ -6,9 +6,11 @@ public class Unit4Main {
 		// TODO Auto-generated method stub
 		
 		Unit4_1WhileLoop whileTesting = new Unit4_1WhileLoop();
-		whileTesting.whileTest();
+		//whileTesting.whileTest();
 		//whileTesting.whileTest2();
-
+		
+		Unit4_2ForLoop forTesting = new Unit4_2ForLoop();
+		forTesting.forLoopTesting();
 	}
 
 }
