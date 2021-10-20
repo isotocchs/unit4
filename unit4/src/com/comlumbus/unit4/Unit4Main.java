@@ -10,7 +10,13 @@ public class Unit4Main {
 		//whileTesting.whileTest2();
 		
 		Unit4_2ForLoop forTesting = new Unit4_2ForLoop();
-		forTesting.forLoopTesting();
+		//forTesting.forLoopTesting();
+		
+		Unit4_3StringLoops stringLoops = new Unit4_3StringLoops();
+		stringLoops.stringLoop1();
+		//stringLoops.vowelCount();
+		//stringLoops.reverseString();
+		
 	}
 
 }
