@@ -13,9 +13,9 @@ public class Unit4Main {
 		//forTesting.forLoopTesting();
 		
 		Unit4_3StringLoops stringLoops = new Unit4_3StringLoops();
-		stringLoops.stringLoop1();
+		//stringLoops.stringLoop1();
 		//stringLoops.vowelCount();
-		//stringLoops.reverseString();
+		stringLoops.reverseString();
 		
 	}
 

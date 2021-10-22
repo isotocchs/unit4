@@ -5,10 +5,10 @@ public class Unit4_3StringLoops {
 	public void stringLoop1() {
 		
 		String word1 = "applesauce";
-		String word2 = "sau";
+		String word2 = "time";
 		boolean found = false;
 		
-		for (int i=0;i<word1.length();i++) {
+		for (int i=0;i<=word1.length()-word2.length();i++) {
 			
 			String portion = word1.substring(i,i+word2.length());
 			if (portion.equals(word2)) {
@@ -36,7 +36,7 @@ public class Unit4_3StringLoops {
 		
 		//check every letter of a word to see if it has an a,e,i,o,u. Add the count to total.
 		
-		String word3 = "pneumonoultramicroscopicsilicovolcanoconiosis";
+		String word3 = "Some time is hot";
 		int count = 0;
 		for (int i = 0;i<word3.length();i++) {
 			
