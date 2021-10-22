@@ -16,7 +16,7 @@ public class Unit4_1WhileLoop {
 			System.out.println(indexVal);
 			//Change index value, control value
 			//If you don't it will run forever.
-			indexVal++;
+			indexVal+=2;
 			
 			//can increase/decrease value any way you like
 			//indexVal--;

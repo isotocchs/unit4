@@ -15,7 +15,14 @@ public class Unit4Main {
 		Unit4_3StringLoops stringLoops = new Unit4_3StringLoops();
 		//stringLoops.stringLoop1();
 		//stringLoops.vowelCount();
-		stringLoops.reverseString();
+		//stringLoops.reverseString();
+		
+		Unit4_4Nested nestedLoops = new Unit4_4Nested();
+		//nestedLoops.nestedLoops1();
+		//nestedLoops.nestedLoops2();
+		
+		Unit4_5CodeAnalysis codeAnalysis = new Unit4_5CodeAnalysis();
+		//codeAnalysis.codeAnalysis1();
 		
 	}
 
