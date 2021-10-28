@@ -11,7 +11,7 @@ public class Unit4_1WhileLoop {
 		
 		int indexVal = 1;
 		
-		while(indexVal <=5) {
+		while(indexVal !=5) {
 			
 			System.out.println(indexVal);
 			//Change index value, control value

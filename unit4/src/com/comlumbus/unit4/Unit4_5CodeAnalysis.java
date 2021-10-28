@@ -22,12 +22,11 @@ public class Unit4_5CodeAnalysis {
 		
 		//How can we make this better/more efficient?
 		
-		for (int i = 0; i<50;i++) {
+		for (int i = 0; i<50;i+=5) {
 			
-			if (i%5==0) {
-				
+			
 				System.out.println(i);
-			}
+			
 		}
 		
 	}

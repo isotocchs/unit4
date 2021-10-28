@@ -24,6 +24,12 @@ public class Unit4Main {
 		Unit4_5CodeAnalysis codeAnalysis = new Unit4_5CodeAnalysis();
 		//codeAnalysis.codeAnalysis1();
 		
+		int count =1;
+		for (int k=1;k<=10;k++) {
+			count++;
+		}
+		System.out.println(count);
+		
 	}
 
 }
