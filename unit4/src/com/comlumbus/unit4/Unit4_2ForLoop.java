@@ -9,7 +9,7 @@ public class Unit4_2ForLoop {
 	//}
 	//you know how many times its gonna run. Parameters defined at the start.
 		int num;
-		for(num =1; num<+5; num++) {
+		for(num =1; num<5; num++) {
 			
 			System.out.println(num);
 			
