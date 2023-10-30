@@ -7,12 +7,21 @@ public class Unit4_2ForLoop {
 	// Do something;
 	//}
 	//you know how many times its gonna run. Parameters defined at the start.
-		int num;
-		for(num =1; num<+5; num++) {
+		// int sum = 5;
+		for(int num =5; num>=0 || num==-20; num--) {
 			
 			System.out.println(num);
 			
+			// sum++;
+		}
+
+		int num2 = 0;
+		while(num2<=5){
+			System.out.println(num2);
 			
+				num2++;
+			
+
 		}
 		
 		System.out.println("End of for loop");

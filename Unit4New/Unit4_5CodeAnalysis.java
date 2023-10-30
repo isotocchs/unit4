@@ -21,10 +21,10 @@ public class Unit4_5CodeAnalysis {
 		
 		//How can we make this better/more efficient?
 		
-		for (int i = 0; i<50;i+=5) {
+		for (int i = 0; i<10;i++) {
 			
 			
-				System.out.println(i);
+				System.out.println(5*i);
 			
 		}
 		

@@ -3,8 +3,8 @@ public class Unit4_3StringLoops {
 
 	public void stringLoop1() {
 		
-		String word1 = "applesauce";
-		String word2 = "time";
+		String word1 = "how does the applesauce taste";
+		String word2 = "sauce";
 		boolean found = false;
 		
 		for (int i=0;i<=word1.length()-word2.length();i++) {
@@ -12,6 +12,9 @@ public class Unit4_3StringLoops {
 			String portion = word1.substring(i,i+word2.length());
 			if (portion.equals(word2)) {
 				found = true;
+				int locationFound = i;
+				System.out.println("Locacion found is "+locationFound);
+				// i = word1.length()-word2.length()+1;
 			}
 		}
 		if (found) {
@@ -40,8 +43,8 @@ public class Unit4_3StringLoops {
 		for (int i = 0;i<word3.length();i++) {
 			
 			String letter = word3.substring(i,i+1);
-			if (letter.equals("a")||letter.equals("e")||letter.equals("i")
-					||letter.equals("o")||letter.equals("u")) {
+			if (!(letter.equals("a")||letter.equals("e")||letter.equals("i")
+					||letter.equals("o")||letter.equals("u"))) {
 				count++;
 				
 			}
@@ -50,6 +53,32 @@ public class Unit4_3StringLoops {
 		System.out.println("The number of vowels in "+word3+" is "+count);
 	}
 	
+public void reverseString2(){
+
+	String original = "this is going on";
+	String reversed = "";
+
+	for(int i=0;i<original.length();i++){
+
+
+		// reversed += original.substring(i,i+1);
+		reversed += original.substring(original.length()-(1+i),original.length()-i);
+
+
+	}
+	System.out.println(reversed);
+	
+
+}
+
+
+
+
+
+
+
+
+
 	public void reverseString() {
 		
 		String original = "Time to go!";
@@ -57,7 +86,7 @@ public class Unit4_3StringLoops {
 		
 		for (int i=0;i<original.length();i++) {
 			String singleLetter = original.substring(i,i+1);
-			reversed = singleLetter+reversed;
+			reversed = reversed+singleLetter;
 			
 		}
 		

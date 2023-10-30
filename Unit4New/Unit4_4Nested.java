@@ -12,12 +12,7 @@ public class Unit4_4Nested {
 				System.out.println("Value of index 2 = "+index2);
 				
 			}
-			
-			
-			
 		}
-		
-		
 	}
 	
 	public void nestedLoops2() {
